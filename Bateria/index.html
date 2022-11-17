@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Bateria</title>
+    <!-- Link do css de comunicação externa -->
+    <link rel="stylesheet" href="./css/style.css">
+        <!-- Imagem do icone html -->
+    <link rel="shortcut icon" href="./img/headphones.SVG" type="image/x-icon">
+</head>
+<body>
+    <h1>Minha bateria 🎶</h1>
+    <!-- Div caixa principal -->
+    <div class="keys">
+        
+        <!-- Primeira parte div -->
+        <div class="key" data-key="keyq">q</div>
+        <div class="key" data-key="keyw">w</div>
+        <div class="key" data-key="keye">e</div>
+        <!-- Fim da primeira parte div  -->
+
+        <!-- Inicio da segunda parte  -->
+        <div class="key" data-key="keya">a</div>
+        <div class="key" data-key="keys">s</div>
+        <div class="key" data-key="keyd">d</div>
+        <!-- Fim da parte da segunda div -->
+
+        <!-- Inicio da terceira parte div -->
+        <div class="key" data-key="keyz">z</div>
+        <div class="key" data-key="keyx">x</div>
+        <div class="key" data-key="keyc">c</div>
+        <!--Fim da terceira parte div -->
+
+    </div>
+
+        <!-- Caixa composisão -->
+        <div class="composer">
+            <input type="text" id="input" placeholder="Faça sua composição">
+            <button>Tocar</button>
+        </div>
+
+        <!-- Rodapé -->
+        <footer>Desenvolvido por: Kauã Tenório</footer>
+
+        <!-- Tag de audio -->
+
+        <!-- Inicio da primeira parte -->
+        <audio src="./sounds/keyq.wav" id="s_keyq"></audio>
+        <audio src="./sounds/keyw.wav" id="s_keyw"></audio>
+        <audio src="./sounds/keye.wav" id="s_keye"></audio>
+        <!-- Fim da primeira parte -->
+
+        <!-- Inicio da segunda parte -->
+        <audio src="./sounds/keya.wav" id="s_keya"></audio>
+        <audio src="./sounds/keys.wav" id="s_keys"></audio>
+        <audio src="./sounds/keyd.wav" id="s_keyd"></audio>
+        <!-- Fim da segunda parte -->
+
+        <!-- Inicio da terceira parte -->
+        <audio src="./sounds/keyz.wav" id="s_keyz"></audio>
+        <audio src="./sounds/keyx.wav" id="s_keyx"></audio>
+        <audio src="./sounds/keyc.wav" id="s_keyc"></audio>
+        <!-- Fim da terceira parte -->
+
+        
+        <!-- Javascript - Arquivo de funcionalidade -->
+        <script src="./javascript/script.js"></script>
+    
+        
+    
+</body>
+</html>
